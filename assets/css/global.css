@@ -5,6 +5,9 @@
 
 body {
     background-color: #f6f8fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .content {

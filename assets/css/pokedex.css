@@ -146,6 +146,62 @@
     border-radius: 1rem;
 }
 
+/* css para detalhes do pokemon */
+.moreDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: .05rem;
+    margin: .1rem;
+}
+
+.itensDetails {
+    justify-items: center;
+    width: 20vw;
+    height: 80vh;
+    padding: 1rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+
+.itemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18vw;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+.itemDetailsName{
+    text-transform: capitalize;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.itemDetailsPhoto{
+    margin: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.itemDetailsData {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 20vh;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    line-height: 200%;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
